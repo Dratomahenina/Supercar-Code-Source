@@ -1,9 +1,9 @@
 <?php
 
-$host = "mysql-kim.alwaysdata.net";
+$host = "localhost";
 $dbname = "kim_supercar";
-$username = "kim";
-$password = "Pazerty11";
+$username = "root";
+$password = "";
 
 $mysqli = new mysqli($host, $username, $password, $dbname);
                                           

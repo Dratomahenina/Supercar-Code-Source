@@ -1,11 +1,11 @@
 <?php
-$servername = "mysql-kim.alwaysdata.net";
-$username = "kim"; 
-$password = "Pazerty11"; 
-$dbname = "kim_supercar"; 
+$host = "localhost";
+$dbname = "kim_supercar";
+$username = "root";
+$password = "";
 
 // Créer une connexion à la base de données
-$mysqli = new mysqli($servername, $username, $password, $dbname);
+$mysqli = new mysqli($host, $username, $password, $dbname);
 
 // Vérifier la connexion à la base de données
 if ($mysqli->connect_error) {
